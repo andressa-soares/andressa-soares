@@ -4,7 +4,7 @@
 
 **Desenvolvimento back-end · Java · Kotlin · IA aplicada**
 
-Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de Iniciação Científica.
+Pesquisadora de Iniciação Científica.
 
 </div>
 
@@ -13,8 +13,8 @@ Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de In
 ## Foco
 
 - **Back-end:** APIs REST em Java (Spring Boot) e Kotlin, com modelagem de domínio, regras de negócio explícitas, persistência relacional e testes automatizados.
-- **Cloud:** em busca da certificação **AWS Certified Cloud Practitioner (CLF-C02)**. Noções de infraestrutura como código com Terraform e GitHub Actions.
-- **Engenharia de prompt:** pesquisa de Iniciação Científica sobre como a estrutura do prompt afeta a funcionalidade, a segurança, a qualidade e a conformidade com a LGPD do código back-end gerado por LLMs. Apresentada no **34º SIICUSP (USP)** e aprovada no **CONIC**.
+- **Cloud e infra:** AWS e GitHub Actions. Noções de Terraform. Em busca da certificação **AWS Certified Cloud Practitioner (CLF-C02)**.
+- **Engenharia de prompt:** pesquisa de Iniciação Científica sobre como a estrutura do prompt afeta a funcionalidade, a segurança, a qualidade e a conformidade com a LGPD do código back-end gerado por LLMs. Apresentada no **34º SIICUSP (USP)** e no **CONIC**.
 
 ## O que já apliquei
 
@@ -23,8 +23,6 @@ Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de In
 - Contrato OpenAPI escrito antes do código, como fonte única da documentação
 - Strategy para regras de negócio extensíveis (regra nova é uma classe nova)
 - Parâmetros de negócio externalizados em configuração, não em literais
-- DTOs separados do domínio, com mapper explícito
-- Padrão `PATCH` para atualização parcial e `POST /actions` para transições de estado
 - Documentos de design (SDD) com decisões registradas e motivos
 
 **Persistência e dados**
@@ -37,11 +35,10 @@ Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de In
 - Autenticação com JWT e controle de acesso por papéis (RBAC)
 - Bean Validation na entrada
 - Tratamento global de erros com payload padronizado (`@RestControllerAdvice`)
-- Logs estruturados em `campo=valor`, sem dados pessoais (CPF mascarado)
-- Pesquisa com checklist da LGPD (arts. 5º, 6º, 11, 12, 37 e 46)
+- Logs estruturados, sem dados sensíveis
 
 **Testes**
-- Unitários e de integração com Mockito e banco H2 em memória
+- Unitários e de integração com JUnit e Mockito
 - Smoke tests por `curl` contra a API em execução
 - Teste de carga com k6
 - Análise estática com bandit, ruff e mypy
@@ -49,18 +46,11 @@ Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de In
 **Infraestrutura e entrega**
 - Docker, Dockerfile multistage e Docker Compose
 - GitHub Actions: `plan` em pull request, `apply` e `destroy` manuais
-- Terraform com state remoto em S3 e política IAM de mínimo privilégio
-- Deploy em Railway e Vercel
+- Terraform (noções) com state remoto em S3 e política IAM de mínimo privilégio
 
 **IA aplicada**
 - Plugin para Claude Code (spec-forge), com requisitos em notação EARS
 - Experimento reprodutível com 3 modelos, 4 níveis de prompt e 6 tarefas, em duas modalidades (API e agentes)
-
-## Agora
-
-- ☁️ Preparando o **CLF-C02**.
-- 🔁 Estudando mensageria e microsserviços.
-- 🟣 Aprendendo Kotlin, migrando partes do meu projeto de Pet Shop.
 
 ## Projetos em destaque
 
