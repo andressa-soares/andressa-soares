@@ -13,7 +13,7 @@ Pesquisadora de Iniciação Científica
 ## Foco
 
 - **Back-end:** APIs REST em Java (Spring Boot) e Kotlin, com modelagem de domínio, regras de negócio explícitas, persistência relacional e testes automatizados.
-- **Cloud e infra:** AWS e GitHub Actions. Noções de Terraform. Em busca da certificação **AWS Certified Cloud Practitioner (CLF-C02)**.
+- **Cloud e infra:** AWS e GitHub Actions. Noções de Terraform. Em busca da certificação **AWS Certified Cloud Practitioner**.
 - **Engenharia de prompt:** pesquisa de Iniciação Científica sobre como a estrutura do prompt afeta a funcionalidade, a segurança, a qualidade e a conformidade com a LGPD do código back-end gerado por LLMs. Apresentada no **34º SIICUSP (USP)** e no **CONIC**.
 
 ## O que já apliquei
