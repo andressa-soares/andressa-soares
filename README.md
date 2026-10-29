@@ -4,7 +4,7 @@
 
 **Desenvolvimento back-end · Java · Kotlin · IA aplicada**
 
-Pesquisadora de Iniciação Científica.
+Pesquisadora de Iniciação Científica
 
 </div>
 
