@@ -10,14 +10,55 @@ Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de In
 
 ---
 
-## O que me move
+## Foco
 
-Gosto de back-end que vai além do CRUD: regras de negócio explícitas, transições de estado controladas, testes que explicam o comportamento e decisões de design registradas. Pesquiso como a forma de escrever prompts afeta a qualidade, a segurança e a conformidade com a LGPD do código gerado por IA.
+- **Back-end:** APIs REST em Java (Spring Boot) e Kotlin, com modelagem de domínio, regras de negócio explícitas, persistência relacional e testes automatizados.
+- **Cloud:** em busca da certificação **AWS Certified Cloud Practitioner (CLF-C02)**. Noções de infraestrutura como código com Terraform e GitHub Actions.
+- **Engenharia de prompt:** pesquisa de Iniciação Científica sobre como a estrutura do prompt afeta a funcionalidade, a segurança, a qualidade e a conformidade com a LGPD do código back-end gerado por LLMs. Apresentada no **34º SIICUSP (USP)** e aprovada no **CONIC**.
+
+## O que já apliquei
+
+**API e arquitetura**
+- Arquitetura em camadas (controller, service, domain) com dependência em um único sentido
+- Contrato OpenAPI escrito antes do código, como fonte única da documentação
+- Strategy para regras de negócio extensíveis (regra nova é uma classe nova)
+- Parâmetros de negócio externalizados em configuração, não em literais
+- DTOs separados do domínio, com mapper explícito
+- Padrão `PATCH` para atualização parcial e `POST /actions` para transições de estado
+- Documentos de design (SDD) com decisões registradas e motivos
+
+**Persistência e dados**
+- Spring Data JPA e Hibernate, PostgreSQL
+- Locking otimista (`@Version`) e pessimista (`PESSIMISTIC_WRITE`) em operações críticas
+- Migrações versionadas com Flyway
+- Modelagem relacional com integridade referencial, constraints de unicidade e ENUMs
+
+**Segurança e confiabilidade**
+- Autenticação com JWT e controle de acesso por papéis (RBAC)
+- Bean Validation na entrada
+- Tratamento global de erros com payload padronizado (`@RestControllerAdvice`)
+- Logs estruturados em `campo=valor`, sem dados pessoais (CPF mascarado)
+- Pesquisa com checklist da LGPD (arts. 5º, 6º, 11, 12, 37 e 46)
+
+**Testes**
+- Unitários e de integração com Mockito e banco H2 em memória
+- Smoke tests por `curl` contra a API em execução
+- Teste de carga com k6
+- Análise estática com bandit, ruff e mypy
+
+**Infraestrutura e entrega**
+- Docker, Dockerfile multistage e Docker Compose
+- GitHub Actions: `plan` em pull request, `apply` e `destroy` manuais
+- Terraform com state remoto em S3 e política IAM de mínimo privilégio
+- Deploy em Railway e Vercel
+
+**IA aplicada**
+- Plugin para Claude Code (spec-forge), com requisitos em notação EARS
+- Experimento reprodutível com 3 modelos, 4 níveis de prompt e 6 tarefas, em duas modalidades (API e agentes)
 
 ## Agora
 
-- 🔬 **Iniciação Científica:** "Engenharia de Prompt como Prática de Engenharia de Software". Apresentada no **34º SIICUSP (USP)** e aprovada no **CONIC**.
-- ☁️ Em busca da certificação **AWS Certified Cloud Practitioner (CLF-C02)**.
+- ☁️ Preparando o **CLF-C02**.
 - 🔁 Estudando mensageria e microsserviços.
 - 🟣 Aprendendo Kotlin, migrando partes do meu projeto de Pet Shop.
 
@@ -41,7 +82,7 @@ Gosto de back-end que vai além do CRUD: regras de negócio explícitas, transi�
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" alt="Insomnia" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" alt="DataGrip" height="40" />
