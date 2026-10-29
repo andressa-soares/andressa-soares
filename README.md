@@ -1,72 +1,52 @@
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=slice&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=ffbe0b"  />
-</div>
-
-###
-
-<h1 align="left">Olá! Eu sou a Andressa. 🤝</h1>
-
-###
-
-<p align="left">Estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento back-end.</p>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=2&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
-
-###
-
-<h2 align="left">Stacks</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="40" alt="insomnia logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" height="40" alt="datagrip logo"  />
-</div>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=2&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
-
-###
-
-<h2 align="left">Sobre mim</h2>
-
-###
-
-<p align="left">💻 Experiência prática em Java, Spring Boot, APIs REST e bancos de dados relacionais.<br>🐋 Atuação com Docker Compose para padronização de ambientes.<br>💼 Familiaridade com metodologias ágeis (Scrum e Kanban).<br>🚀 Buscando aprofundar conhecimentos técnicos e entender processos reais de desenvolvimento.</p>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=2&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
-
-###
-
 <div align="center">
-  <a href="https://www.linkedin.com/in/andressa-dos-santos-soares/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="mailto:andressasoares.dev@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
+
+![header](https://capsule-render.vercel.app/api?type=slice&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=ffbe0b)
+
+# Olá! Eu sou a Andressa. 🤝
+
+**Desenvolvimento back-end · Java · Kotlin · IA aplicada**
+
+Estudante de Análise e Desenvolvimento de Sistemas (FATEC) e pesquisadora de Iniciação Científica.
+
 </div>
 
-###
+---
+
+## O que me move
+
+Gosto de back-end que vai além do CRUD: regras de negócio explícitas, transições de estado controladas, testes que explicam o comportamento e decisões de design registradas. Pesquiso como a forma de escrever prompts afeta a qualidade, a segurança e a conformidade com a LGPD do código gerado por IA.
+
+## Agora
+
+- 🔬 **Iniciação Científica:** "Engenharia de Prompt como Prática de Engenharia de Software". Apresentada no **34º SIICUSP (USP)** e aprovada no **CONIC**.
+- ☁️ Preparando a **AWS Certified Cloud Practitioner (CLF-C02)**, com posts semanais sobre cada serviço no [LinkedIn](https://www.linkedin.com/in/andressa-dos-santos-soares/).
+- 🔁 Estudando mensageria e microsserviços.
+- 🟣 Aprendendo Kotlin, migrando partes do meu projeto de Pet Shop.
+
+## Projetos em destaque
+
+| Projeto | O que mostra |
+|---|---|
+| [pet-shop-management](https://github.com/andressa-soares/pet-shop-management) | API REST em Java/Spring Boot com workflow de estados, controle de concorrência, tratamento global de erros, logs estruturados e Docker |
+| [spec-forge](https://github.com/andressa-soares/spec-forge-plugin) | Plugin para Claude Code que transforma uma ideia em requisitos (EARS) e design técnico |
+| [ic-prompt-engineering](https://github.com/andressa-soares/ic-prompt-engineering) | Experimento da minha pesquisa: 3 modelos, 4 níveis de prompt, 6 tarefas, avaliação em 4 eixos |
+| [university_db](https://github.com/andressa-soares/university_db) | Modelagem relacional em PostgreSQL a partir de regras de negócio, com migrations e consultas analíticas |
+
+## Stack
+
+![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg)
+![Kotlin](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg)
+![Spring](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg)
+![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)
+![FastAPI](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg)
+![PostgreSQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg)
+![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg)
+![AWS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)
+![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg)
+![Insomnia](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg)
+![DataGrip](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg)
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andressa-dos-santos-soares/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andressasoares.dev@gmail.com)
